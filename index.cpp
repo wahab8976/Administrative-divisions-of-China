@@ -7,12 +7,13 @@ void calculator::getNumbers()
     cin >> num1;
     cout << "Enter another  number" << endl;
     cin >> num2;
-    total = num1  + num2;
+    total = num1 + num2;
 }
 
 void calculator::ShowNumbers()
 {
     cout << "The sum of " << num1 << " and " << num2 << " is " << total << endl;
+    cout << "Good Bye";
 }
 int main()
 {
@@ -21,5 +22,4 @@ int main()
     calculator calc;
     calc.getNumbers();
     calc.ShowNumbers();
-
 }
